@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    font-size: 18px;
+    color: #666;
+}
+
+.box{
+    padding: 50px 0;
+}
+
+.category{
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.title{
+    font-size: 24px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid ;
+}
+
+#footer h3{
+    font-size: 28px;
+    color: #ffffff;
+}
+#footer ul{
+    padding-left: 0;
+}
+#footer ul li{
+    list-style: none;
+}
+#footer ul li a{
+    color: #666;
+}
+#footer-b p{
+    border-top: 2px solid #666;
+    margin-top: 50px;
+    padding-top: 50px;
+}

@@ -1,0 +1,61 @@
+li{
+    background: yellow;
+    width: 150px;
+}
+
+li:hover{
+    background: blue;
+    border-right: 5px wheat solid ;
+}
+
+li:hover a{
+    color: red;
+}
+
+#box1, #box2, #box4{
+    width: 100px;
+    height: 100px;
+}
+
+#box1{
+    background: yellow;
+    float: left;
+}
+
+#box2{
+    background: pink;
+    float: right;
+}
+
+#box3{
+    clear: both;
+    width: 250px;
+    height: 50px;
+    background: grey;
+}
+#box4{
+    background: green;
+}
+
+#box{
+    height: 100px;
+    background: yellow;
+}
+@media (min-width: 992px){
+    #box{
+        height: 200px;
+        background: red;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    #box{
+        height: 150px;
+        border-bottom: 2px solid red;
+    }
+}
+@media (max-width:768px){
+    #box{
+        height: 300px;
+        background: pink;
+    }
+}

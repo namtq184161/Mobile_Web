@@ -1,0 +1,51 @@
+li{
+    background: white;
+}
+.con-1{
+    width: 200px;
+    color: green;
+}
+
+.con-2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#home{
+    background: grey;
+}
+
+h1{
+    color: black;
+}
+
+body{
+    background: yellow;
+}
+
+    /* background-color: orange;
+    background-image: url(images/2.jpg);
+
+} */
+
+p{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div{
+    background: white;
+    width: 500px;
+    height: 100px;
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 100px 120px 200px;
+    border-bottom: 5px solid violet;
+}
